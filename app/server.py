@@ -4,11 +4,10 @@ from starlette.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
 import uvicorn, aiohttp, asyncio
 from io import BytesIO
-
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://www.dropbox.com/s/y4kl2gv1akv7y4i/stage-2.pth?raw=1'
+model_file_url = 'https://drive.google.com/uc?export=download&id=1-BLKV3DfRB22cupsdnbs_aNJH7KDVUvx'
 model_file_name = 'model'
 classes = ['black', 'grizzly', 'teddys']
 path = Path(__file__).parent
